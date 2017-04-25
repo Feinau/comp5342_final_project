@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 Route::get('/admin_page', function () {
 
-    //dd(DB::select('SELECT * FROM test_data'));
     return view('admin_page');
 });
+
+Route::post('/save_captured_data', 'order_data_handler@insert_data');

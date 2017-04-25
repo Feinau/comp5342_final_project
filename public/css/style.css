@@ -1,0 +1,48 @@
+#search_order_btn {
+  width: 100%;
+}
+
+.container {
+  margin-top: 10px;
+  min-width: 650px;
+}
+
+form.dropzone {
+  margin-top: 10px;
+}
+
+form.dropzone .dz-message span {
+  font-size: 27px;
+  color: grey;
+}
+
+.dz-error-message {
+  display: none !important
+}
+
+#customer_order_number {
+  height: 76px;
+  width: 60%;
+  border-bottom: 2px solid rgb(194, 202, 216) !important;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+  margin-left: 20%;
+  margin-right: 20%;
+  
+  font-size: 30px;
+  line-height: 94px;
+}
+
+#customer_order_number:hover {
+  cursor: pointer;
+}
+
+.left_side_container, .right_side_container {
+  padding-top: 10px;
+}
+
+/* fix active log col  */
+.feeds li .col1 > .cont {
+  margin-right: 0px !important; 
+}
